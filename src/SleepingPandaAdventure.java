@@ -128,10 +128,11 @@ public class SleepingPandaAdventure extends JComponent {
         
         //draw pipes
         g.setColor(pipeColor);
+        //for loop to draw out pipes according to 
         for (int i = 0; i < topPipe.length; i++) {
-            //g.fillRect(topPipes[i].x, topPipes[i].y, topPipes[i].width, topPipes[i].height);
+            //draws image for top pipe;
             g.drawImage(tTube, topPipe[i].x, topPipe[i].y, topPipe[i].width, topPipe[i].height, null);
-            //g.fillRect(bottomPipes[i].x, bottomPipes[i].y, bottomPipes[i].width, bottomPipes[i].height);
+            //draws image for bottom pipe
             g.drawImage(bTube, bottomPipe[i].x, bottomPipe[i].y, bottomPipe[i].width, bottomPipe[i].height, null);
         }
         //draw panda
