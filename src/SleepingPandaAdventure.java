@@ -149,9 +149,9 @@ public class SleepingPandaAdventure extends JComponent {
     }
 
  public void reset() {
-        // set up the pipes
+        //sets up start of counter
         score = 0;
-        
+        // set up the pipes
         int pipeX = 600;
         Random randGen = new Random();
         for (int i = 0; i < topPipe.length; i++) {
@@ -365,7 +365,7 @@ public class SleepingPandaAdventure extends JComponent {
     
    
      // A method used to load in an image
-    // The filname is used to pass in the EXACT full name of the image from the src folder
+    // The file name is used to pass in the EXACT full name of the image from the src folder
     // i.e.  images/picture.png
     public BufferedImage loadImage(String filename) {
         
